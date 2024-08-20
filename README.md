@@ -29,13 +29,7 @@ Bugs... bugs everywhere!
    ./mvnw clean compile
    ```
 
-   You should see some output in the terminal saying the packages have been
-   audited. If you've got this far, great! You're on track.
-
-> [!NOTE]
->
-> If you see a message about "vulnerabilities", don't worry. We aren't deploying
-> our code. This is something we'll talk about later.
+   You should see some output in the terminal saying the build is successful. If you've got this far, great! You're on track.
 
 ## Testing
 
@@ -74,13 +68,15 @@ in the terminal.
 
 Each time you fix a bug, you should commit your code with a useful message.
 
-For example,
+A good rule of thumb is to imagine starting your commit message with "In this commit, our hero..."
+
+For example, "In this commit, our hero fixes Add.java":
 
 ```bash
 git commit -am "fixes Add.java"
 ```
 
-or
+or "In this commit, our hero attempts Subtract.java (feedback needed)":
 
 ```bash
 git commit -am "attempts Subtract.java (feedback needed)"
