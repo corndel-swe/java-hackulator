@@ -26,7 +26,7 @@ Bugs... bugs everywhere!
 1. Once cloned, open a terminal in the project folder, and run
 
    ```bash
-   ./mvnw build
+   ./mvnw clean compile
    ```
 
    You should see some output in the terminal saying the packages have been
