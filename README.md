@@ -39,6 +39,18 @@ Bugs... bugs everywhere!
 
 ## Testing
 
+To check if your solution for one of the exercises has worked, you can run the tests.
+
+You can run them using either method below:
+
+### Option 1: Using VSCode
+
+You can open up the "Testing" tab and press play on the test or group of tests you want to run.
+
+![alt text](assets/run_tests.png)
+
+### Option 2: Using the CLI
+
 To check if your solution for one of the exercises has worked, you can run the command
 
 ```bash
