@@ -2,9 +2,10 @@ package com.corndel.hackulator;
 
 public class Average {
   /**
-   * Divides the numbers
+   * Calculates the average
    *
-   * <p>divide(15, 3) => 5
+   * <p>
+   * average(3, 4, 8) => 5
    */
   static int average(int x, int y) {
     return x + y / 2;
