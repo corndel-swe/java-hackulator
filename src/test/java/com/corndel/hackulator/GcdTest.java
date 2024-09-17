@@ -14,7 +14,7 @@ public class GcdTest {
 
   @Test
   void gcdMultiple() {
-    assertEquals(gcd(5, 10), 5);
+    assertEquals(gcd(10, 5), 5);
   }
 
   @Test
